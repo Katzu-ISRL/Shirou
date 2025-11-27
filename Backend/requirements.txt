@@ -1,0 +1,2 @@
+# luego lo configuro.
+pip install Django

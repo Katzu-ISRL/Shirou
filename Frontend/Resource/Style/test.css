@@ -1,3 +1,23 @@
-body {
-    background-color: bisque;
+header, footer, main {
+    background-color: wheat;
+    width: auto;
+}
+
+header, footer {
+    height: 300px;
+}
+
+main {
+    height: auto;
+}
+
+canvas {
+    display: inline-block;
+    left: 15%;
+}
+
+#game-container {
+    height: auto;
+    background-color: wheat;
+    text-align: center;
 }

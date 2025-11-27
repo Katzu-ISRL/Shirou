@@ -8,12 +8,11 @@ header, footer {
 }
 
 main {
-    height: auto;
+    height: auto;   
 }
 
 canvas {
     display: inline-block;
-    left: 15%;
 }
 
 #game-container {

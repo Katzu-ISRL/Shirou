@@ -1,2 +1,3 @@
 # luego lo configuro.
-pip install Django
+Django>=5.2.8
+numpy>=2.3.5

@@ -8,18 +8,33 @@ Python 3.12.10
 
 Install Manual:
 
-Python Packages in venv.
+OPEN VENV
+
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+
 cd .\Backend\
+
 python -m venv Venv
+
 .\Venv\Scripts\Activate.ps1
-pip install -r Django
-pip install -r numpy
+
+pip install -r ..\Config\requirements.txt
+
+CLOSE VENV
+
+deactivate
+
+Remove-Item -Path .\Venv -Recurse -Force
+
+cd ..\
 
 ##########################################
 
-Install Auto(Default):
-.\Backend\config_venv.ps1
+Install Auto(Direct):
+
+.\Config\open_venv.ps1
+
+..\Config\close_venv.ps1
 
 ##########################################
 

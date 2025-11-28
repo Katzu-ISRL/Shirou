@@ -1,3 +1,2 @@
-# luego lo configuro.
 Django>=5.2.8
 numpy>=2.3.5

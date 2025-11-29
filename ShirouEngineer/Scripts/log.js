@@ -1,0 +1,1 @@
+let log_action = ['Inicio de registro...'];
